@@ -23,15 +23,18 @@ This code has a little bit of extra overhead, for setting up the for-loop (inclu
 ## Big Theta Θ
 Big theta notation is a **asymptotically tight bound** on the running time.
 When we say a running time is Θ`(n)`, we say that the running time of the function once it gets past the dashed line, falls in between the upper bound `k2 . n` and lower bound `k1  n` for some constants `k1 and k2`. Here is the pic.
-![[big-theta]]
-We can use any function, such as n<sup>2</sup> , n log<sub>2</sub>(n) or any other function of n. Here's how to think of a running time that is  Θ`(f(n))` for some function `f(n)`:
-For small values of n, we don't care about the running time falling between the upper and lower bounds. 
+![[Screenshot 2024-07-21 at 10.45.21 PM.png]]
+
+We can use any function, such as n<sup>2</sup> , n log<sub>2</sub>(n) or any other function of n. Here's how to think of a running time that is  Θ`(f(n))` for some function `f(n)`. For small values of n, we don't care about the running time falling between the upper and lower bounds. 
 ## Big Omega Ω
 Big theta notation is used for **asymptotic lower bound** on the f(n) running time. It means the running time takes at least `k . f(n)`.
-![[big-omega]]
+
+![[Screenshot 2024-07-21 at 10.52.08 PM.png]]
 ## Big O 
 Big O notation is used for **asymptotic upper bound** on the f(n) running time. It means the running time is at most `k . f(n)` even for larger inputs.
-![[big-O]]
+
+![[Screenshot 2024-07-21 at 10.52.24 PM.png]]
+
 From the reference,
 > Because big-O notation gives only an asymptotic upper bound, and not an asymptotically tight bound, we can make statements that at first glance seem incorrect, but are technically correct. For example, it is absolutely correct to say that binary search runs in O(n) time. That's because the running time grows no faster than a constant times n. In fact, it grows slower.
 
