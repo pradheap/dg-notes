@@ -20,4 +20,4 @@ JS - Array
 > *And in JS, the Array data structure is an object which is classified as a indexed collection, which means you can do the below.*
   `let gh = ['a', 'b']; gh['abc'] = 4` results in `['a', 'b', abc: 4]` but you can't use `abc`  as a valid index during an iteration, or if you use TS, you can avoid this JS quirk.
 
-See Also [[1 Basics (Indexed Collection)]]
+See Also [[1 Basics (Indexed or Ordered Collection)]]
