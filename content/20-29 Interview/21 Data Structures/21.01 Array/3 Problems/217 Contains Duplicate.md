@@ -45,4 +45,4 @@ class Solution:
 		return False
 ```
 ### After Thought
-We could use `set()` instead of a dict `{}`.
+We should use `set()` instead of a dict `{}`.
